@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Montserrat Alternates";
+    src: url("../fonts/MontserratAlternates.woff") format("woff");
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+}

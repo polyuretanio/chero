@@ -1,0 +1,43 @@
+@keyframes wheel {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes aerostat {
+  to {
+    transform: translate(750px, -1500px);
+  }
+}
+
+@keyframes birds {
+  to {
+    transform: translateX(2000px);
+  }
+}
+
+@keyframes ufo {
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(200px, 375px);
+  }
+}
+
+.birds {
+  animation-duration: 30s;
+}
+
+.wind-mill {
+  animation-duration: 10s;
+}
+
+.aerostat {
+  animation-duration: 20s;
+}
+
+.ufo {
+  animation-duration: 10s;
+}

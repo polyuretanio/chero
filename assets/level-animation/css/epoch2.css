@@ -1,0 +1,74 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.mechanical-world {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  background-color: rgb(73, 9, 67);
+}
+
+.mechanical-world > div {
+  position: relative;
+
+  width: 100%;
+  height: 400px;
+  padding-top: 90px;
+  overflow: hidden;
+
+  background: #490943 url("../img/wrld2.svg") bottom center no-repeat;
+  background-size: 750px auto;
+}
+
+.birds {
+  position: absolute;
+  top: 30px;
+  left: 20%;
+
+  width: 100px;
+  height: 1000px;
+
+  background: url("../img/birds.svg") 0 0 no-repeat;
+}
+
+.aerostat {
+  position: absolute;
+  bottom: 5px;
+  left: 10%;
+
+  width: 140px;
+  height: 140px;
+
+  background: url("../img/aerostat.svg") 0 0 no-repeat;
+}
+
+.wind-mill {
+  position: absolute;
+  bottom: 90px;
+  left: 50%;
+  margin-left: -102px;
+
+  width: 200px;
+  height: 200px;
+
+  background: url("../img/wind-wheel.svg") 0 0 no-repeat;
+}
+
+.ufo {
+  position: absolute;
+  top: -100px;
+  left: -100px;
+
+  width: 100px;
+  height: 50px;
+
+  background: url("../img/ufo.svg?a1") no-repeat 0 0;
+}
